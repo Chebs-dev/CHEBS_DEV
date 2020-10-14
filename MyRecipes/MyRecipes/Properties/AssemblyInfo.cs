@@ -10,7 +10,7 @@ using System.Windows;
 [assembly: AssemblyTitle("MyRecipes")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("CheBs")]
 [assembly: AssemblyProduct("MyRecipes")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]

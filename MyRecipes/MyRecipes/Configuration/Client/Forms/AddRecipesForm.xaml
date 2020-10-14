@@ -1,0 +1,17 @@
+﻿<Window x:Class="MyRecipes.Configuration.Client.Forms.AddRecipesForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyRecipes.Configuration.Client.Forms"
+        mc:Ignorable="d"
+        Title="New Recipe" Height="450" Width="800">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Height="39" Margin="155,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="310" FontSize="18"/>
+        <Label Content="Recipe Name:" HorizontalAlignment="Left" Height="39" Margin="27,45,0,0" VerticalAlignment="Top" Width="145" FontSize="18"/>
+        <Button Content="Apply" HorizontalAlignment="Left" Height="34" Margin="523,363,0,0" VerticalAlignment="Top" Width="94"/>
+        <Button Content="Cancel" HorizontalAlignment="Left" Height="34" Margin="643,363,0,0" VerticalAlignment="Top" Width="94"/>
+        <Label Content="Category:" HorizontalAlignment="Left" Height="39" Margin="27,99,0,0" VerticalAlignment="Top" Width="94" FontSize="18"/>
+        <ComboBox HorizontalAlignment="Left" Height="39" Margin="155,99,0,0" VerticalAlignment="Top" Width="310"/>
+    </Grid>
+</Window>

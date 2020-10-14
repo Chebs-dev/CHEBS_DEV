@@ -10,21 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
-using MyRecipes.Configuration.Client.Forms;
 
-namespace MyRecipes
+namespace MyRecipes.Configuration.Client.Forms
 {
     /// <summary>
-    /// MainWindow.xaml の相互作用ロジック
+    /// AddRecipesForm.xaml の相互作用ロジック
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class AddRecipesForm : Window
     {
-        public MainWindow()
+        public AddRecipesForm()
         {
             InitializeComponent();
-                       
         }
     }
 }
